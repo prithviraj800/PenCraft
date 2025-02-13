@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <div className="flex md:flex-row sm:flex-row gap-2 flex-col justify-between items-center md:px-10 sm:px-7 px-4 py-3 text-lg  fixed w-full backdrop-blur-lg">
       <div className="flex flex-row  gap-38 items-center md:gap-50  sm:gap-26 ">
-        <Link to="/">
+        <Link>
           <div>
             <img
               src="public\blog_img.png"
@@ -12,9 +12,10 @@ export default function Navbar() {
             />
           </div>
         </Link>
+        <Link to="/">
         <div>
           <p className="font-serif font-bold">PenCraft</p>
-        </div>
+        </div></Link>
       </div>
       <div className="flex  md:gap-10 sm:gap-6 gap-3 items-center justify-between">
         <div>
