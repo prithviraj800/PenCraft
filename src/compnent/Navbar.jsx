@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex md:flex-row sm:flex-row gap-2 flex-col justify-between items-center md:px-10 sm:px-7 px-4 py-3 text-lg  fixed w-full backdrop-blur-lg">
-      <div className="flex flex-row  gap-50 items-center md:gap-50  sm:gap-26 ">
+      <div className="flex flex-row  gap-38 items-center md:gap-50  sm:gap-26 ">
         <Link to="/">
           <div>
             <img
@@ -25,9 +25,9 @@ export default function Navbar() {
           />
         </div>
         <Link to="/blog">
-          <div className="bg-black text-white px-4 py-1 rounded-full">
+          <div className="bg-black text-white md:px-4 sm:px-2 px-1.5 py-1 rounded-full">
             <button>
-              Add <span className="">➕</span>
+             <p className="md:flex sm:flex hidden"> Add </p><span className="">➕</span>
             </button>
           </div>
         </Link>

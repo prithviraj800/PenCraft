@@ -21,7 +21,7 @@ export default function Home() {
     location.reload;
   }
   return (
-    <div className="py-25 bg-gradient-to-b to-zinc-900 from-gray-300">
+    <div className="py-25 h-screen bg-gradient-to-b to-zinc-900  from-gray-300">
       <div className="grid  md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 p-5 ">
         {blogs.map((item, index) => (
           <div className=" p-4 rounded-xl bg-white" key={index}>
