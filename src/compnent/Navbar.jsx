@@ -6,7 +6,7 @@ export default function Navbar() {
         <Link to="/">
           <div>
             <img
-              src="https://files.oaiusercontent.com/file-3sXsNg7uNu6ijXFMixGcMq?se=2025-02-12T17%3A15%3A14Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78db046b-5f99-4a54-838e-06a10853b009.webp&sig=l8L7CZchudbmKVUJvuCyy1eS77LFPkAakT/6M/doq1w%3D"
+              src="public\blog_img.png"
               alt=""
               className="w-12 rounded-full"
             />
